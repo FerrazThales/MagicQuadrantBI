@@ -8,4 +8,4 @@
 2020: https://www.analyticsvidhya.com/blog/2020/02/gartners-2020-magic-quadrant-bi-analytics-tools/
 2021: https://www.climber.eu/qlik-a-leader-in-the-2021-gartner-magic-quadrant/
 2022: https://www.cxtoday.com/data-analytics/gartner-magic-quadrant-for-analytics-and-business-intelligence-platforms-2022/
-2023:
+2023: https://www.cxtoday.com/data-analytics/gartner-magic-quadrant-for-analytics-and-business-intelligence-platforms-2023/
