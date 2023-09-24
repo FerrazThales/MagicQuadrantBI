@@ -4,8 +4,8 @@
 2016: https://www.randgroup.com/insights/services/reporting-analytics/2016-gartner-magic-quadrant-for-bi-analytics-transformative/
 2017: https://blogs.microsoft.com/blog/2017/02/16/microsoft-breaks-gartner-magic-quadrant-business-intelligence-analytics-platforms/
 2018: https://www.bmc.com/blogs/gartner-magic-quadrant-analytics-business-intelligence/
-2019:
-2020:
-2021:
-2022:
+2019: https://www.analyticsvidhya.com/blog/2020/02/gartners-2020-magic-quadrant-bi-analytics-tools/
+2020: https://www.analyticsvidhya.com/blog/2020/02/gartners-2020-magic-quadrant-bi-analytics-tools/
+2021: https://www.climber.eu/qlik-a-leader-in-the-2021-gartner-magic-quadrant/
+2022: https://www.cxtoday.com/data-analytics/gartner-magic-quadrant-for-analytics-and-business-intelligence-platforms-2022/
 2023:
