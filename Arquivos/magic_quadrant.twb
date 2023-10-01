@@ -1,0 +1,1617 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20231.23.0310.1044                               -->
+<workbook original-version='18.1' source-build='2023.1.0 (20231.23.0310.1044)' source-platform='win' version='18.1' xml:base='https://public.tableau.com' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <_.fcp.AccessibleZoneTabOrder.true...AccessibleZoneTabOrder />
+    <_.fcp.AnimationOnByDefault.true...AnimationOnByDefault />
+    <AutoCreateAndUpdateDSDPhoneLayouts />
+    <_.fcp.MarkAnimation.true...MarkAnimation />
+    <_.fcp.ObjectModelEncapsulateLegacy.true...ObjectModelEncapsulateLegacy />
+    <_.fcp.ObjectModelExtractV2.true...ObjectModelExtractV2 />
+    <_.fcp.ObjectModelTableType.true...ObjectModelTableType />
+    <_.fcp.SchemaViewerObjectModel.true...SchemaViewerObjectModel />
+    <SetMembershipControl />
+    <SheetIdentifierTracking />
+    <_.fcp.VConnDownstreamExtractsWithWarnings.true...VConnDownstreamExtractsWithWarnings />
+    <WindowsPersistSimpleIdentifiers />
+    <ZoneBackgroundTransparency />
+  </document-format-change-manifest>
+  <repository-location id='magic_quadrant_thales_ferraz' path='/workbooks' revision='1.1' />
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <style-theme name='modern' />
+  <_.fcp.AnimationOnByDefault.false...style>
+    <_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule element='animation'>
+      <_.fcp.AnimationOnByDefault.false...format attr='animation-on' value='ao-on' />
+    </_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule>
+  </_.fcp.AnimationOnByDefault.false...style>
+  <datasources>
+    <datasource caption='2013 (dataset)' inline='true' name='federated.0mcwo341fdk8wl16sbezj1wgqh2t' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='dataset' name='excel-direct.1kzu6qm1t09cs518pnjex1w8zzis'>
+            <connection class='excel-direct' cleaning='no' compat='no' dataRefreshTime='' filename='C:/Users/Usuario/Desktop/Magic Quadrant/dataset.xlsx' interpretationMode='0' password='' server='' validate='no' workgroup-auth-mode='as-is' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation all='true' name='2013+' type='union'>
+          <columns header='yes'>
+            <column datatype='integer' name='ID' />
+            <column datatype='string' name='Empresa' />
+            <column datatype='real' name='Eixo_X' />
+            <column datatype='real' name='Eixo_Y' />
+            <column datatype='integer' name='Ano' />
+            <column datatype='string' name='Sheet' />
+            <column datatype='string' name='Table Name' />
+          </columns>
+          <relation connection='excel-direct.1kzu6qm1t09cs518pnjex1w8zzis' name='2013' table='[&apos;2013$&apos;]' type='table'>
+            <columns gridOrigin='A1:E25:no:A1:E25:0' header='yes' outcome='6'>
+              <column datatype='integer' name='ID' ordinal='0' />
+              <column datatype='string' name='Empresa' ordinal='1' />
+              <column datatype='real' name='Eixo_X' ordinal='2' />
+              <column datatype='real' name='Eixo_Y' ordinal='3' />
+              <column datatype='integer' name='Ano' ordinal='4' />
+            </columns>
+          </relation>
+          <relation connection='excel-direct.1kzu6qm1t09cs518pnjex1w8zzis' name='2014' table='[&apos;2014$&apos;]' type='table'>
+            <columns gridOrigin='A1:E28:no:A1:E28:0' header='yes' outcome='6'>
+              <column datatype='integer' name='ID' ordinal='0' />
+              <column datatype='string' name='Empresa' ordinal='1' />
+              <column datatype='real' name='Eixo_X' ordinal='2' />
+              <column datatype='real' name='Eixo_Y' ordinal='3' />
+              <column datatype='integer' name='Ano' ordinal='4' />
+            </columns>
+          </relation>
+          <relation connection='excel-direct.1kzu6qm1t09cs518pnjex1w8zzis' name='2015' table='[&apos;2015$&apos;]' type='table'>
+            <columns gridOrigin='A1:E25:no:A1:E25:0' header='yes' outcome='6'>
+              <column datatype='integer' name='ID' ordinal='0' />
+              <column datatype='string' name='Empresa' ordinal='1' />
+              <column datatype='real' name='Eixo_X' ordinal='2' />
+              <column datatype='real' name='Eixo_Y' ordinal='3' />
+              <column datatype='integer' name='Ano' ordinal='4' />
+            </columns>
+          </relation>
+          <relation connection='excel-direct.1kzu6qm1t09cs518pnjex1w8zzis' name='2016' table='[&apos;2016$&apos;]' type='table'>
+            <columns gridOrigin='A1:E25:no:A1:E25:0' header='yes' outcome='6'>
+              <column datatype='integer' name='ID' ordinal='0' />
+              <column datatype='string' name='Empresa' ordinal='1' />
+              <column datatype='real' name='Eixo_X' ordinal='2' />
+              <column datatype='real' name='Eixo_Y' ordinal='3' />
+              <column datatype='integer' name='Ano' ordinal='4' />
+            </columns>
+          </relation>
+          <relation connection='excel-direct.1kzu6qm1t09cs518pnjex1w8zzis' name='2017' table='[&apos;2017$&apos;]' type='table'>
+            <columns gridOrigin='A1:E25:no:A1:E25:0' header='yes' outcome='6'>
+              <column datatype='integer' name='ID' ordinal='0' />
+              <column datatype='string' name='Empresa' ordinal='1' />
+              <column datatype='real' name='Eixo_X' ordinal='2' />
+              <column datatype='real' name='Eixo_Y' ordinal='3' />
+              <column datatype='integer' name='Ano' ordinal='4' />
+            </columns>
+          </relation>
+          <relation connection='excel-direct.1kzu6qm1t09cs518pnjex1w8zzis' name='2018' table='[&apos;2018$&apos;]' type='table'>
+            <columns gridOrigin='A1:E21:no:A1:E21:0' header='yes' outcome='6'>
+              <column datatype='integer' name='ID' ordinal='0' />
+              <column datatype='string' name='Empresa' ordinal='1' />
+              <column datatype='real' name='Eixo_X' ordinal='2' />
+              <column datatype='real' name='Eixo_Y' ordinal='3' />
+              <column datatype='integer' name='Ano' ordinal='4' />
+            </columns>
+          </relation>
+          <relation connection='excel-direct.1kzu6qm1t09cs518pnjex1w8zzis' name='2019' table='[&apos;2019$&apos;]' type='table'>
+            <columns gridOrigin='A1:E22:no:A1:E22:0' header='yes' outcome='6'>
+              <column datatype='integer' name='ID' ordinal='0' />
+              <column datatype='string' name='Empresa' ordinal='1' />
+              <column datatype='real' name='Eixo_X' ordinal='2' />
+              <column datatype='real' name='Eixo_Y' ordinal='3' />
+              <column datatype='integer' name='Ano' ordinal='4' />
+            </columns>
+          </relation>
+          <relation connection='excel-direct.1kzu6qm1t09cs518pnjex1w8zzis' name='2020' table='[&apos;2020$&apos;]' type='table'>
+            <columns gridOrigin='A1:E23:no:A1:E23:0' header='yes' outcome='6'>
+              <column datatype='integer' name='ID' ordinal='0' />
+              <column datatype='string' name='Empresa' ordinal='1' />
+              <column datatype='real' name='Eixo_X' ordinal='2' />
+              <column datatype='real' name='Eixo_Y' ordinal='3' />
+              <column datatype='integer' name='Ano' ordinal='4' />
+            </columns>
+          </relation>
+          <relation connection='excel-direct.1kzu6qm1t09cs518pnjex1w8zzis' name='2021' table='[&apos;2021$&apos;]' type='table'>
+            <columns gridOrigin='A1:E21:no:A1:E21:0' header='yes' outcome='6'>
+              <column datatype='integer' name='ID' ordinal='0' />
+              <column datatype='string' name='Empresa' ordinal='1' />
+              <column datatype='real' name='Eixo_X' ordinal='2' />
+              <column datatype='real' name='Eixo_Y' ordinal='3' />
+              <column datatype='integer' name='Ano' ordinal='4' />
+            </columns>
+          </relation>
+          <relation connection='excel-direct.1kzu6qm1t09cs518pnjex1w8zzis' name='2022' table='[&apos;2022$&apos;]' type='table'>
+            <columns gridOrigin='A1:E21:no:A1:E21:0' header='yes' outcome='6'>
+              <column datatype='integer' name='ID' ordinal='0' />
+              <column datatype='string' name='Empresa' ordinal='1' />
+              <column datatype='real' name='Eixo_X' ordinal='2' />
+              <column datatype='real' name='Eixo_Y' ordinal='3' />
+              <column datatype='integer' name='Ano' ordinal='4' />
+            </columns>
+          </relation>
+          <relation connection='excel-direct.1kzu6qm1t09cs518pnjex1w8zzis' name='2023' table='[&apos;2023$&apos;]' type='table'>
+            <columns gridOrigin='A1:E21:no:A1:E21:0' header='yes' outcome='6'>
+              <column datatype='integer' name='ID' ordinal='0' />
+              <column datatype='string' name='Empresa' ordinal='1' />
+              <column datatype='real' name='Eixo_X' ordinal='2' />
+              <column datatype='real' name='Eixo_Y' ordinal='3' />
+              <column datatype='integer' name='Ano' ordinal='4' />
+            </columns>
+          </relation>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation all='true' name='2013+' type='union'>
+          <columns header='yes'>
+            <column datatype='integer' name='ID' />
+            <column datatype='string' name='Empresa' />
+            <column datatype='real' name='Eixo_X' />
+            <column datatype='real' name='Eixo_Y' />
+            <column datatype='integer' name='Ano' />
+            <column datatype='string' name='Sheet' />
+            <column datatype='string' name='Table Name' />
+          </columns>
+          <relation connection='excel-direct.1kzu6qm1t09cs518pnjex1w8zzis' name='2013' table='[&apos;2013$&apos;]' type='table'>
+            <columns gridOrigin='A1:E25:no:A1:E25:0' header='yes' outcome='6'>
+              <column datatype='integer' name='ID' ordinal='0' />
+              <column datatype='string' name='Empresa' ordinal='1' />
+              <column datatype='real' name='Eixo_X' ordinal='2' />
+              <column datatype='real' name='Eixo_Y' ordinal='3' />
+              <column datatype='integer' name='Ano' ordinal='4' />
+            </columns>
+          </relation>
+          <relation connection='excel-direct.1kzu6qm1t09cs518pnjex1w8zzis' name='2014' table='[&apos;2014$&apos;]' type='table'>
+            <columns gridOrigin='A1:E28:no:A1:E28:0' header='yes' outcome='6'>
+              <column datatype='integer' name='ID' ordinal='0' />
+              <column datatype='string' name='Empresa' ordinal='1' />
+              <column datatype='real' name='Eixo_X' ordinal='2' />
+              <column datatype='real' name='Eixo_Y' ordinal='3' />
+              <column datatype='integer' name='Ano' ordinal='4' />
+            </columns>
+          </relation>
+          <relation connection='excel-direct.1kzu6qm1t09cs518pnjex1w8zzis' name='2015' table='[&apos;2015$&apos;]' type='table'>
+            <columns gridOrigin='A1:E25:no:A1:E25:0' header='yes' outcome='6'>
+              <column datatype='integer' name='ID' ordinal='0' />
+              <column datatype='string' name='Empresa' ordinal='1' />
+              <column datatype='real' name='Eixo_X' ordinal='2' />
+              <column datatype='real' name='Eixo_Y' ordinal='3' />
+              <column datatype='integer' name='Ano' ordinal='4' />
+            </columns>
+          </relation>
+          <relation connection='excel-direct.1kzu6qm1t09cs518pnjex1w8zzis' name='2016' table='[&apos;2016$&apos;]' type='table'>
+            <columns gridOrigin='A1:E25:no:A1:E25:0' header='yes' outcome='6'>
+              <column datatype='integer' name='ID' ordinal='0' />
+              <column datatype='string' name='Empresa' ordinal='1' />
+              <column datatype='real' name='Eixo_X' ordinal='2' />
+              <column datatype='real' name='Eixo_Y' ordinal='3' />
+              <column datatype='integer' name='Ano' ordinal='4' />
+            </columns>
+          </relation>
+          <relation connection='excel-direct.1kzu6qm1t09cs518pnjex1w8zzis' name='2017' table='[&apos;2017$&apos;]' type='table'>
+            <columns gridOrigin='A1:E25:no:A1:E25:0' header='yes' outcome='6'>
+              <column datatype='integer' name='ID' ordinal='0' />
+              <column datatype='string' name='Empresa' ordinal='1' />
+              <column datatype='real' name='Eixo_X' ordinal='2' />
+              <column datatype='real' name='Eixo_Y' ordinal='3' />
+              <column datatype='integer' name='Ano' ordinal='4' />
+            </columns>
+          </relation>
+          <relation connection='excel-direct.1kzu6qm1t09cs518pnjex1w8zzis' name='2018' table='[&apos;2018$&apos;]' type='table'>
+            <columns gridOrigin='A1:E21:no:A1:E21:0' header='yes' outcome='6'>
+              <column datatype='integer' name='ID' ordinal='0' />
+              <column datatype='string' name='Empresa' ordinal='1' />
+              <column datatype='real' name='Eixo_X' ordinal='2' />
+              <column datatype='real' name='Eixo_Y' ordinal='3' />
+              <column datatype='integer' name='Ano' ordinal='4' />
+            </columns>
+          </relation>
+          <relation connection='excel-direct.1kzu6qm1t09cs518pnjex1w8zzis' name='2019' table='[&apos;2019$&apos;]' type='table'>
+            <columns gridOrigin='A1:E22:no:A1:E22:0' header='yes' outcome='6'>
+              <column datatype='integer' name='ID' ordinal='0' />
+              <column datatype='string' name='Empresa' ordinal='1' />
+              <column datatype='real' name='Eixo_X' ordinal='2' />
+              <column datatype='real' name='Eixo_Y' ordinal='3' />
+              <column datatype='integer' name='Ano' ordinal='4' />
+            </columns>
+          </relation>
+          <relation connection='excel-direct.1kzu6qm1t09cs518pnjex1w8zzis' name='2020' table='[&apos;2020$&apos;]' type='table'>
+            <columns gridOrigin='A1:E23:no:A1:E23:0' header='yes' outcome='6'>
+              <column datatype='integer' name='ID' ordinal='0' />
+              <column datatype='string' name='Empresa' ordinal='1' />
+              <column datatype='real' name='Eixo_X' ordinal='2' />
+              <column datatype='real' name='Eixo_Y' ordinal='3' />
+              <column datatype='integer' name='Ano' ordinal='4' />
+            </columns>
+          </relation>
+          <relation connection='excel-direct.1kzu6qm1t09cs518pnjex1w8zzis' name='2021' table='[&apos;2021$&apos;]' type='table'>
+            <columns gridOrigin='A1:E21:no:A1:E21:0' header='yes' outcome='6'>
+              <column datatype='integer' name='ID' ordinal='0' />
+              <column datatype='string' name='Empresa' ordinal='1' />
+              <column datatype='real' name='Eixo_X' ordinal='2' />
+              <column datatype='real' name='Eixo_Y' ordinal='3' />
+              <column datatype='integer' name='Ano' ordinal='4' />
+            </columns>
+          </relation>
+          <relation connection='excel-direct.1kzu6qm1t09cs518pnjex1w8zzis' name='2022' table='[&apos;2022$&apos;]' type='table'>
+            <columns gridOrigin='A1:E21:no:A1:E21:0' header='yes' outcome='6'>
+              <column datatype='integer' name='ID' ordinal='0' />
+              <column datatype='string' name='Empresa' ordinal='1' />
+              <column datatype='real' name='Eixo_X' ordinal='2' />
+              <column datatype='real' name='Eixo_Y' ordinal='3' />
+              <column datatype='integer' name='Ano' ordinal='4' />
+            </columns>
+          </relation>
+          <relation connection='excel-direct.1kzu6qm1t09cs518pnjex1w8zzis' name='2023' table='[&apos;2023$&apos;]' type='table'>
+            <columns gridOrigin='A1:E21:no:A1:E21:0' header='yes' outcome='6'>
+              <column datatype='integer' name='ID' ordinal='0' />
+              <column datatype='string' name='Empresa' ordinal='1' />
+              <column datatype='real' name='Eixo_X' ordinal='2' />
+              <column datatype='real' name='Eixo_Y' ordinal='3' />
+              <column datatype='integer' name='Ano' ordinal='4' />
+            </columns>
+          </relation>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[2013+]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ID</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[ID]</local-name>
+            <parent-name>[2013+]</parent-name>
+            <remote-alias>ID</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[2013_D6E1DCD6D09349118F938FD9A66861B5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Empresa</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Empresa]</local-name>
+            <parent-name>[2013+]</parent-name>
+            <remote-alias>Empresa</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LPT_RBR_S2' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[2013_D6E1DCD6D09349118F938FD9A66861B5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Eixo_X</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Eixo_X]</local-name>
+            <parent-name>[2013+]</parent-name>
+            <remote-alias>Eixo_X</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[2013_D6E1DCD6D09349118F938FD9A66861B5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Eixo_Y</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Eixo_Y]</local-name>
+            <parent-name>[2013+]</parent-name>
+            <remote-alias>Eixo_Y</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[2013_D6E1DCD6D09349118F938FD9A66861B5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Ano</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Ano]</local-name>
+            <parent-name>[2013+]</parent-name>
+            <remote-alias>Ano</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[2013_D6E1DCD6D09349118F938FD9A66861B5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Sheet</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Sheet]</local-name>
+            <parent-name>[2013+]</parent-name>
+            <remote-alias>Sheet</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LPT_RBR_S2' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[2013_D6E1DCD6D09349118F938FD9A66861B5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Table Name</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Table Name]</local-name>
+            <parent-name>[2013+]</parent-name>
+            <remote-alias>Table Name</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LPT_RBR_S2' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[2013_D6E1DCD6D09349118F938FD9A66861B5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column datatype='integer' name='[Ano]' role='dimension' type='quantitative' />
+      <column caption='Rotulos' datatype='string' name='[Calculation_866661459930431488]' role='dimension' type='nominal'>
+        <calculation class='tableau' formula='IF [Empresa] = &quot;Power BI&quot; OR &#13;&#10;[Empresa] = &quot;Tableau&quot; OR &#13;&#10;[Empresa] = &quot;Qlik&quot;&#13;&#10;THEN&#13;&#10;[Empresa]&#13;&#10;END' />
+      </column>
+      <column caption='Eixo X' datatype='real' name='[Eixo_X]' role='measure' type='quantitative' />
+      <column caption='Eixo Y' datatype='real' name='[Eixo_Y]' role='measure' type='quantitative' />
+      <column caption='Empresa1' datatype='string' name='[Empresa]' role='dimension' type='nominal' />
+      <column datatype='integer' name='[ID]' role='dimension' type='ordinal' />
+      <_.fcp.ObjectModelTableType.true...column caption='2013' datatype='table' name='[__tableau_internal_object_id__].[2013_D6E1DCD6D09349118F938FD9A66861B5]' role='measure' type='quantitative' />
+      <column-instance column='[Empresa]' derivation='None' name='[none:Empresa:nk]' pivot='key' type='nominal' />
+      <extract _.fcp.ObjectModelExtractV2.true...object-id='' _.fcp.VConnDownstreamExtractsWithWarnings.true...user-specific='false' count='-1' enabled='true' units='records'>
+        <connection access_mode='readonly' authentication='auth-none' author-locale='pt_BR' class='hyper' dbname='C:/Users/Usuario/Desktop/Magic Quadrant/2013 (dataset).hyper' default-settings='yes' schema='Extract' sslmode='' tablename='Extract' update-time='10/01/2023 02:05:01 AM' username='tableau_internal_user'>
+          <_.fcp.ObjectModelEncapsulateLegacy.false...relation name='Extract' table='[Extract].[Extract]' type='table' />
+          <_.fcp.ObjectModelEncapsulateLegacy.true...relation name='Extract' table='[Extract].[Extract]' type='table' />
+          <refresh>
+            <refresh-event add-from-file-path='2013 (dataset)' increment-value='%null%' refresh-type='create' rows-inserted='246' timestamp-start='2023-10-01 02:05:00.038' />
+          </refresh>
+          <metadata-records>
+            <metadata-record class='column'>
+              <remote-name>ID</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[ID]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>ID</remote-alias>
+              <ordinal>0</ordinal>
+              <family>2013+</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>27</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[2013_D6E1DCD6D09349118F938FD9A66861B5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Empresa</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Empresa]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Empresa</remote-alias>
+              <ordinal>1</ordinal>
+              <family>2013+</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>46</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LPT_RBR_S2' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[2013_D6E1DCD6D09349118F938FD9A66861B5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Eixo_X</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[Eixo_X]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Eixo_X</remote-alias>
+              <ordinal>2</ordinal>
+              <family>2013+</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>234</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[2013_D6E1DCD6D09349118F938FD9A66861B5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Eixo_Y</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[Eixo_Y]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Eixo_Y</remote-alias>
+              <ordinal>3</ordinal>
+              <family>2013+</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>241</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[2013_D6E1DCD6D09349118F938FD9A66861B5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Ano</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Ano]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Ano</remote-alias>
+              <ordinal>4</ordinal>
+              <family>2013+</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>11</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[2013_D6E1DCD6D09349118F938FD9A66861B5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Sheet</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Sheet]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Sheet</remote-alias>
+              <ordinal>5</ordinal>
+              <family>2013+</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>11</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LPT_RBR_S2' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[2013_D6E1DCD6D09349118F938FD9A66861B5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Table Name</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Table Name]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Table Name</remote-alias>
+              <ordinal>6</ordinal>
+              <family>2013+</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>11</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LPT_RBR_S2' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[2013_D6E1DCD6D09349118F938FD9A66861B5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+          </metadata-records>
+        </connection>
+      </extract>
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' _.fcp.SchemaViewerObjectModel.true...common-percentage='1' _.fcp.SchemaViewerObjectModel.true...user-set-layout-v2='true' dim-ordering='alphabetic' measure-ordering='alphabetic' rowDisplayCount='500' show-hidden-fields='true' show-structure='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[none:Empresa:nk]' type='palette'>
+            <map to='#4e79a7'>
+              <bucket>&quot;Tableau&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Qlik&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Actuate&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Alibaba Cloud&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Alteryx&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Amazon Web Services&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;arcplan&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;BeyondCore&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Birst&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Bitam&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Board International&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;ClearStory Data&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Datameer&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;DataWatch&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Domo&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Dundas&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;GoodData&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;IBM&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Incorta&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Infor&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Information Builders&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Jaspersoft&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Log/XML&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Logi Analytics&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Looker&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;MicroStrategy&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Oracle&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Panorama Software&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Pentaho&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Platfora&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Prognoz&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Pyramid Analytics&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Salesforce&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Salient Management Company&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;SAP&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;SAS&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Sisense&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Targit&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Tellius&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;ThoughSpot&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Tibco Software&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Yellowfin&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Zoho&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Zoomdata&quot;</bucket>
+            </map>
+            <map to='#edc948'>
+              <bucket>&quot;Microsoft&quot;</bucket>
+            </map>
+            <map to='#edc948'>
+              <bucket>&quot;Power BI&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Bilam&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Tibco Softwatware&quot;</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;Brasil&quot;' />
+      </semantic-values>
+      <field-sort-info field-sort-order-type='custom-order'>
+        <field-sort-custom-order field='ID' />
+        <field-sort-custom-order field='Calculation_269090082238537731' />
+        <field-sort-custom-order field='Empresa' />
+        <field-sort-custom-order field='Calculation_1155454783908237312' />
+        <field-sort-custom-order field='Coordenadas' />
+        <field-sort-custom-order field='Geometry (generated)' />
+        <field-sort-custom-order field='Latitude (generated)' />
+        <field-sort-custom-order field='Longitude (generated)' />
+        <field-sort-custom-order field='Coordenadas - Divisão 1' />
+        <field-sort-custom-order field='Calculation_269090082237939712' />
+        <field-sort-custom-order field='Coordenadas - Divisão 2' />
+        <field-sort-custom-order field='Calculation_269090082238271489' />
+        <field-sort-custom-order field=':Measure Names' />
+        <field-sort-custom-order field='Multiple Values' />
+      </field-sort-info>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='2013' id='2013_D6E1DCD6D09349118F938FD9A66861B5'>
+            <properties context=''>
+              <relation all='true' name='2013+' type='union'>
+                <columns header='yes'>
+                  <column datatype='integer' name='ID' />
+                  <column datatype='string' name='Empresa' />
+                  <column datatype='real' name='Eixo_X' />
+                  <column datatype='real' name='Eixo_Y' />
+                  <column datatype='integer' name='Ano' />
+                  <column datatype='string' name='Sheet' />
+                  <column datatype='string' name='Table Name' />
+                </columns>
+                <relation connection='excel-direct.1kzu6qm1t09cs518pnjex1w8zzis' name='2013' table='[&apos;2013$&apos;]' type='table'>
+                  <columns gridOrigin='A1:E25:no:A1:E25:0' header='yes' outcome='6'>
+                    <column datatype='integer' name='ID' ordinal='0' />
+                    <column datatype='string' name='Empresa' ordinal='1' />
+                    <column datatype='real' name='Eixo_X' ordinal='2' />
+                    <column datatype='real' name='Eixo_Y' ordinal='3' />
+                    <column datatype='integer' name='Ano' ordinal='4' />
+                  </columns>
+                </relation>
+                <relation connection='excel-direct.1kzu6qm1t09cs518pnjex1w8zzis' name='2014' table='[&apos;2014$&apos;]' type='table'>
+                  <columns gridOrigin='A1:E28:no:A1:E28:0' header='yes' outcome='6'>
+                    <column datatype='integer' name='ID' ordinal='0' />
+                    <column datatype='string' name='Empresa' ordinal='1' />
+                    <column datatype='real' name='Eixo_X' ordinal='2' />
+                    <column datatype='real' name='Eixo_Y' ordinal='3' />
+                    <column datatype='integer' name='Ano' ordinal='4' />
+                  </columns>
+                </relation>
+                <relation connection='excel-direct.1kzu6qm1t09cs518pnjex1w8zzis' name='2015' table='[&apos;2015$&apos;]' type='table'>
+                  <columns gridOrigin='A1:E25:no:A1:E25:0' header='yes' outcome='6'>
+                    <column datatype='integer' name='ID' ordinal='0' />
+                    <column datatype='string' name='Empresa' ordinal='1' />
+                    <column datatype='real' name='Eixo_X' ordinal='2' />
+                    <column datatype='real' name='Eixo_Y' ordinal='3' />
+                    <column datatype='integer' name='Ano' ordinal='4' />
+                  </columns>
+                </relation>
+                <relation connection='excel-direct.1kzu6qm1t09cs518pnjex1w8zzis' name='2016' table='[&apos;2016$&apos;]' type='table'>
+                  <columns gridOrigin='A1:E25:no:A1:E25:0' header='yes' outcome='6'>
+                    <column datatype='integer' name='ID' ordinal='0' />
+                    <column datatype='string' name='Empresa' ordinal='1' />
+                    <column datatype='real' name='Eixo_X' ordinal='2' />
+                    <column datatype='real' name='Eixo_Y' ordinal='3' />
+                    <column datatype='integer' name='Ano' ordinal='4' />
+                  </columns>
+                </relation>
+                <relation connection='excel-direct.1kzu6qm1t09cs518pnjex1w8zzis' name='2017' table='[&apos;2017$&apos;]' type='table'>
+                  <columns gridOrigin='A1:E25:no:A1:E25:0' header='yes' outcome='6'>
+                    <column datatype='integer' name='ID' ordinal='0' />
+                    <column datatype='string' name='Empresa' ordinal='1' />
+                    <column datatype='real' name='Eixo_X' ordinal='2' />
+                    <column datatype='real' name='Eixo_Y' ordinal='3' />
+                    <column datatype='integer' name='Ano' ordinal='4' />
+                  </columns>
+                </relation>
+                <relation connection='excel-direct.1kzu6qm1t09cs518pnjex1w8zzis' name='2018' table='[&apos;2018$&apos;]' type='table'>
+                  <columns gridOrigin='A1:E21:no:A1:E21:0' header='yes' outcome='6'>
+                    <column datatype='integer' name='ID' ordinal='0' />
+                    <column datatype='string' name='Empresa' ordinal='1' />
+                    <column datatype='real' name='Eixo_X' ordinal='2' />
+                    <column datatype='real' name='Eixo_Y' ordinal='3' />
+                    <column datatype='integer' name='Ano' ordinal='4' />
+                  </columns>
+                </relation>
+                <relation connection='excel-direct.1kzu6qm1t09cs518pnjex1w8zzis' name='2019' table='[&apos;2019$&apos;]' type='table'>
+                  <columns gridOrigin='A1:E22:no:A1:E22:0' header='yes' outcome='6'>
+                    <column datatype='integer' name='ID' ordinal='0' />
+                    <column datatype='string' name='Empresa' ordinal='1' />
+                    <column datatype='real' name='Eixo_X' ordinal='2' />
+                    <column datatype='real' name='Eixo_Y' ordinal='3' />
+                    <column datatype='integer' name='Ano' ordinal='4' />
+                  </columns>
+                </relation>
+                <relation connection='excel-direct.1kzu6qm1t09cs518pnjex1w8zzis' name='2020' table='[&apos;2020$&apos;]' type='table'>
+                  <columns gridOrigin='A1:E23:no:A1:E23:0' header='yes' outcome='6'>
+                    <column datatype='integer' name='ID' ordinal='0' />
+                    <column datatype='string' name='Empresa' ordinal='1' />
+                    <column datatype='real' name='Eixo_X' ordinal='2' />
+                    <column datatype='real' name='Eixo_Y' ordinal='3' />
+                    <column datatype='integer' name='Ano' ordinal='4' />
+                  </columns>
+                </relation>
+                <relation connection='excel-direct.1kzu6qm1t09cs518pnjex1w8zzis' name='2021' table='[&apos;2021$&apos;]' type='table'>
+                  <columns gridOrigin='A1:E21:no:A1:E21:0' header='yes' outcome='6'>
+                    <column datatype='integer' name='ID' ordinal='0' />
+                    <column datatype='string' name='Empresa' ordinal='1' />
+                    <column datatype='real' name='Eixo_X' ordinal='2' />
+                    <column datatype='real' name='Eixo_Y' ordinal='3' />
+                    <column datatype='integer' name='Ano' ordinal='4' />
+                  </columns>
+                </relation>
+                <relation connection='excel-direct.1kzu6qm1t09cs518pnjex1w8zzis' name='2022' table='[&apos;2022$&apos;]' type='table'>
+                  <columns gridOrigin='A1:E21:no:A1:E21:0' header='yes' outcome='6'>
+                    <column datatype='integer' name='ID' ordinal='0' />
+                    <column datatype='string' name='Empresa' ordinal='1' />
+                    <column datatype='real' name='Eixo_X' ordinal='2' />
+                    <column datatype='real' name='Eixo_Y' ordinal='3' />
+                    <column datatype='integer' name='Ano' ordinal='4' />
+                  </columns>
+                </relation>
+                <relation connection='excel-direct.1kzu6qm1t09cs518pnjex1w8zzis' name='2023' table='[&apos;2023$&apos;]' type='table'>
+                  <columns gridOrigin='A1:E21:no:A1:E21:0' header='yes' outcome='6'>
+                    <column datatype='integer' name='ID' ordinal='0' />
+                    <column datatype='string' name='Empresa' ordinal='1' />
+                    <column datatype='real' name='Eixo_X' ordinal='2' />
+                    <column datatype='real' name='Eixo_Y' ordinal='3' />
+                    <column datatype='integer' name='Ano' ordinal='4' />
+                  </columns>
+                </relation>
+              </relation>
+            </properties>
+            <properties context='extract'>
+              <relation name='Extract' table='[Extract].[Extract]' type='table' />
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='Magic Quadrant'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run fontcolor='#ffffff' fontname='Segoe UI' fontsize='12'>Gartner Magic Quadrant for Business Intelligence and Analytics Platform</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='2013 (dataset)' name='federated.0mcwo341fdk8wl16sbezj1wgqh2t' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0mcwo341fdk8wl16sbezj1wgqh2t'>
+            <column datatype='integer' name='[Ano]' role='dimension' type='quantitative' />
+            <column caption='Rotulos' datatype='string' name='[Calculation_866661459930431488]' role='dimension' type='nominal'>
+              <calculation class='tableau' formula='IF [Empresa] = &quot;Power BI&quot; OR &#13;&#10;[Empresa] = &quot;Tableau&quot; OR &#13;&#10;[Empresa] = &quot;Qlik&quot;&#13;&#10;THEN&#13;&#10;[Empresa]&#13;&#10;END' />
+            </column>
+            <column caption='Eixo X' datatype='real' name='[Eixo_X]' role='measure' type='quantitative' />
+            <column caption='Eixo Y' datatype='real' name='[Eixo_Y]' role='measure' type='quantitative' />
+            <column caption='Empresa1' datatype='string' name='[Empresa]' role='dimension' type='nominal' />
+            <column-instance column='[Ano]' derivation='None' name='[none:Ano:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[Calculation_866661459930431488]' derivation='None' name='[none:Calculation_866661459930431488:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Empresa]' derivation='None' name='[none:Empresa:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Eixo_X]' derivation='Sum' name='[sum:Eixo_X:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Eixo_Y]' derivation='Sum' name='[sum:Eixo_Y:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <encoding attr='space' class='0' field='[federated.0mcwo341fdk8wl16sbezj1wgqh2t].[sum:Eixo_Y:qk]' field-type='quantitative' max='100.0' min='-100.0' range-type='fixed' scope='rows' type='space' />
+            <encoding attr='space' class='0' field='[federated.0mcwo341fdk8wl16sbezj1wgqh2t].[sum:Eixo_X:qk]' field-type='quantitative' max='100.0' min='-100.0' range-type='fixed' scope='cols' type='space' />
+            <format attr='display' class='0' field='[federated.0mcwo341fdk8wl16sbezj1wgqh2t].[sum:Eixo_Y:qk]' scope='rows' value='false' />
+            <format attr='display' class='0' field='[federated.0mcwo341fdk8wl16sbezj1wgqh2t].[sum:Eixo_X:qk]' scope='cols' value='false' />
+            <format attr='tick-color' scope='rows' value='#00000000' />
+          </style-rule>
+          <style-rule element='cell'>
+            <format attr='color' value='#4e79a7' />
+            <format attr='border-color' scope='rows' value='#000000' />
+            <format attr='border-width' scope='rows' value='0' />
+            <format attr='border-style' scope='rows' value='none' />
+          </style-rule>
+          <style-rule element='header'>
+            <format attr='background-color' data-class='subtotal' value='#00000000' />
+            <format attr='band-color' scope='rows' value='#000000' />
+          </style-rule>
+          <style-rule element='label'>
+            <format attr='color' scope='rows' value='#72b966' />
+            <format attr='font-weight' scope='rows' value='normal' />
+          </style-rule>
+          <style-rule element='pane'>
+            <format attr='background-color' data-class='total' value='#00000000' />
+            <format attr='band-color' scope='rows' value='#000000' />
+            <format attr='border-color' value='#d7d7d7' />
+            <format attr='border-width' value='0' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' data-class='subtotal' value='1' />
+            <format attr='border-color' data-class='subtotal' value='#666666' />
+            <format attr='border-style' data-class='subtotal' value='solid' />
+            <format attr='border-width' data-class='subtotal' scope='rows' value='0' />
+            <format attr='border-style' data-class='subtotal' scope='rows' value='none' />
+          </style-rule>
+          <style-rule element='table'>
+            <format attr='band-size' scope='rows' value='0' />
+          </style-rule>
+          <style-rule element='dropline'>
+            <format attr='stroke-size' scope='cols' value='0' />
+            <format attr='line-visibility' scope='cols' value='off' />
+            <format attr='line-pattern-only' scope='rows' value='solid' />
+            <format attr='stroke-size' scope='rows' value='0' />
+            <format attr='line-visibility' scope='rows' value='off' />
+          </style-rule>
+          <style-rule element='refline'>
+            <format attr='stroke-size' scope='cols' value='0' />
+            <format attr='line-visibility' scope='cols' value='off' />
+            <format attr='stroke-size' scope='rows' value='1' />
+            <format attr='line-visibility' scope='rows' value='on' />
+            <format attr='line-pattern-only' scope='rows' value='solid' />
+            <format attr='stroke-color' scope='rows' value='#5555554b' />
+          </style-rule>
+          <style-rule element='gridline'>
+            <format attr='line-visibility' value='on' />
+            <format attr='line-pattern-only' value='solid' />
+            <format attr='stroke-size' value='1' />
+            <format attr='stroke-color' value='#f5f5f5' />
+            <format attr='line-pattern-only' scope='cols' value='solid' />
+            <format attr='stroke-color' scope='cols' value='#000000' />
+            <format attr='line-pattern-only' scope='rows' value='solid' />
+            <format attr='stroke-color' scope='rows' value='#000000' />
+            <format attr='stroke-size' scope='cols' value='0' />
+            <format attr='line-visibility' scope='cols' value='off' />
+            <format attr='stroke-size' scope='rows' value='0' />
+            <format attr='line-visibility' scope='rows' value='off' />
+          </style-rule>
+          <style-rule element='zeroline'>
+            <format attr='line-visibility' scope='rows' value='on' />
+            <format attr='line-pattern-only' scope='rows' value='solid' />
+            <format attr='line-visibility' scope='cols' value='on' />
+            <format attr='line-pattern-only' scope='cols' value='solid' />
+            <format attr='stroke-color' scope='cols' value='#e6e6e6' />
+            <format attr='stroke-size' scope='rows' value='1' />
+            <format attr='stroke-color' scope='rows' value='#e6e6e6' />
+          </style-rule>
+          <style-rule element='table-div'>
+            <format attr='div-level' scope='rows' value='0' />
+            <format attr='stroke-color' scope='rows' value='#898989' />
+            <format attr='line-pattern-only' scope='rows' value='solid' />
+            <format attr='stroke-size' scope='rows' value='0' />
+            <format attr='line-visibility' scope='rows' value='off' />
+          </style-rule>
+          <style-rule element='title'>
+            <format attr='background-color' value='#555555b9' />
+          </style-rule>
+          <style-rule element='annotation'>
+            <format attr='border-style' id='annotation_2' value='solid' />
+            <format attr='border-style' id='annotation_3' value='solid' />
+            <format attr='stroke-size' id='annotation_1' value='0' />
+            <format attr='line-visibility' id='annotation_1' value='off' />
+            <format attr='rounding' id='annotation_4' value='small' />
+            <format attr='line-pattern-only' id='annotation_4' value='solid' />
+            <format attr='line-end-size' id='annotation_4' value='smallest' />
+            <format attr='stroke-size' id='annotation_4' value='0' />
+            <format attr='line-visibility' id='annotation_4' value='off' />
+            <format attr='body-type' id='annotation_4' value='box' />
+            <format attr='border-color' id='annotation_4' value='#1b1b1b' />
+            <format attr='fill-color' id='annotation_4' value='#00000000' />
+            <format attr='border-width' id='annotation_4' value='0' />
+            <format attr='border-style' id='annotation_4' value='none' />
+            <format attr='stroke-color' id='annotation_3' value='#4e79a7' />
+            <format attr='stroke-size' id='annotation_3' value='0' />
+            <format attr='line-visibility' id='annotation_3' value='off' />
+            <format attr='rounding' id='annotation_1' value='small' />
+            <format attr='rounding' id='annotation_2' value='small' />
+            <format attr='fill-color' id='annotation_1' value='#fafafae7' />
+            <format attr='border-width' id='annotation_1' value='1' />
+            <format attr='border-style' id='annotation_1' value='solid' />
+            <format attr='fill-color' id='annotation_3' value='#fafafae7' />
+            <format attr='border-color' id='annotation_3' value='#d7d7d7' />
+            <format attr='rounding' id='annotation_3' value='small' />
+            <format attr='border-style' id='annotation_5' value='solid' />
+            <format attr='border-color' id='annotation_5' value='#d7d7d7' />
+            <format attr='rounding' id='annotation_5' value='small' />
+            <format attr='line-end-size' id='annotation_5' value='medium' />
+            <format attr='body-type' id='annotation_5' value='edge' />
+            <format attr='body-type' id='annotation_2' value='edge' />
+            <format attr='border-color' id='annotation_1' value='#d7d7d7' />
+            <format attr='border-color' id='annotation_2' value='#d7d7d7' />
+          </style-rule>
+          <style-rule element='page-card-title'>
+            <format attr='title' value='Anos' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.0mcwo341fdk8wl16sbezj1wgqh2t].[none:Empresa:nk]' />
+              <text column='[federated.0mcwo341fdk8wl16sbezj1wgqh2t].[none:Calculation_866661459930431488:nk]' />
+            </encodings>
+            <style>
+              <style-rule element='cell'>
+                <format attr='text-align' value='auto' />
+                <format attr='vertical-align' value='auto' />
+                <format attr='wrap' value='auto' />
+              </style-rule>
+              <style-rule element='datalabel'>
+                <format attr='color-mode' value='match' />
+                <format attr='font-size' value='9' />
+                <format attr='font-family' value='Segoe UI' />
+                <format attr='font-weight' value='bold' />
+              </style-rule>
+              <style-rule element='mark'>
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-show' value='true' />
+                <format attr='shape' value=':filled/circle' />
+                <format attr='mark-transparency' value='255' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.0mcwo341fdk8wl16sbezj1wgqh2t].[sum:Eixo_Y:qk]</rows>
+        <cols>[federated.0mcwo341fdk8wl16sbezj1wgqh2t].[sum:Eixo_X:qk]</cols>
+        <pages>
+          <column>[federated.0mcwo341fdk8wl16sbezj1wgqh2t].[none:Ano:ok]</column>
+        </pages>
+        <annotations>
+          <annotation class='area' id='1' text-pinx='0.5' text-piny='0.5' text-width-delta='-18'>
+            <formatted-text>
+              <run bold='true' fontcolor='#666666' fontname='Segoe UI' fontsize='8'>CHALLENGERS</run>
+            </formatted-text>
+            <top-left>
+              <visual-coordinate class='axis'>
+                <x-coord axis-value='-82.871536523929478'>
+                  <node-reference>
+                    <axis>[federated.0mcwo341fdk8wl16sbezj1wgqh2t].[sum:Eixo_X:qk]</axis>
+                  </node-reference>
+                </x-coord>
+                <y-coord axis-value='88.187372708757636'>
+                  <node-reference>
+                    <axis>[federated.0mcwo341fdk8wl16sbezj1wgqh2t].[sum:Eixo_Y:qk]</axis>
+                  </node-reference>
+                </y-coord>
+                <page-reference>
+                  <fields>
+                    <field>[federated.0mcwo341fdk8wl16sbezj1wgqh2t].[none:Ano:ok]</field>
+                  </fields>
+                  <multibucket>
+                    <bucket>2023</bucket>
+                  </multibucket>
+                </page-reference>
+              </visual-coordinate>
+            </top-left>
+            <bottom-right>
+              <visual-coordinate class='axis'>
+                <x-coord axis-value='-57.682619647355168'>
+                  <node-reference>
+                    <axis>[federated.0mcwo341fdk8wl16sbezj1wgqh2t].[sum:Eixo_X:qk]</axis>
+                  </node-reference>
+                </x-coord>
+                <y-coord axis-value='78.818737270875772'>
+                  <node-reference>
+                    <axis>[federated.0mcwo341fdk8wl16sbezj1wgqh2t].[sum:Eixo_Y:qk]</axis>
+                  </node-reference>
+                </y-coord>
+                <page-reference>
+                  <fields>
+                    <field>[federated.0mcwo341fdk8wl16sbezj1wgqh2t].[none:Ano:ok]</field>
+                  </fields>
+                  <multibucket>
+                    <bucket>2023</bucket>
+                  </multibucket>
+                </page-reference>
+              </visual-coordinate>
+            </bottom-right>
+            <text x='0.5' y='0.5' />
+          </annotation>
+          <annotation class='area' id='2' text-pinx='0.5' text-piny='0.5' text-width-delta='-18'>
+            <formatted-text>
+              <run bold='true' fontcolor='#666666' fontname='Segoe UI' fontsize='8'>LEADERS</run>
+            </formatted-text>
+            <top-left>
+              <visual-coordinate class='axis'>
+                <x-coord axis-value='59.949622166246854'>
+                  <node-reference>
+                    <axis>[federated.0mcwo341fdk8wl16sbezj1wgqh2t].[sum:Eixo_X:qk]</axis>
+                  </node-reference>
+                </x-coord>
+                <y-coord axis-value='87.372708757637469'>
+                  <node-reference>
+                    <axis>[federated.0mcwo341fdk8wl16sbezj1wgqh2t].[sum:Eixo_Y:qk]</axis>
+                  </node-reference>
+                </y-coord>
+                <page-reference>
+                  <fields>
+                    <field>[federated.0mcwo341fdk8wl16sbezj1wgqh2t].[none:Ano:ok]</field>
+                  </fields>
+                  <multibucket>
+                    <bucket>2023</bucket>
+                  </multibucket>
+                </page-reference>
+              </visual-coordinate>
+            </top-left>
+            <bottom-right>
+              <visual-coordinate class='axis'>
+                <x-coord axis-value='85.138539042821151'>
+                  <node-reference>
+                    <axis>[federated.0mcwo341fdk8wl16sbezj1wgqh2t].[sum:Eixo_X:qk]</axis>
+                  </node-reference>
+                </x-coord>
+                <y-coord axis-value='80.448065173116078'>
+                  <node-reference>
+                    <axis>[federated.0mcwo341fdk8wl16sbezj1wgqh2t].[sum:Eixo_Y:qk]</axis>
+                  </node-reference>
+                </y-coord>
+                <page-reference>
+                  <fields>
+                    <field>[federated.0mcwo341fdk8wl16sbezj1wgqh2t].[none:Ano:ok]</field>
+                  </fields>
+                  <multibucket>
+                    <bucket>2023</bucket>
+                  </multibucket>
+                </page-reference>
+              </visual-coordinate>
+            </bottom-right>
+            <text x='0.5' y='0.5' />
+          </annotation>
+          <annotation class='area' id='3' text-pinx='0.5' text-piny='0.5' text-width-delta='-18'>
+            <formatted-text>
+              <run bold='true' fontcolor='#666666' fontname='Segoe UI' fontsize='8'>NICHE PLAYERS</run>
+            </formatted-text>
+            <top-left>
+              <visual-coordinate class='axis'>
+                <x-coord axis-value='-79.596977329974806'>
+                  <node-reference>
+                    <axis>[federated.0mcwo341fdk8wl16sbezj1wgqh2t].[sum:Eixo_X:qk]</axis>
+                  </node-reference>
+                </x-coord>
+                <y-coord axis-value='-76.782077393075369'>
+                  <node-reference>
+                    <axis>[federated.0mcwo341fdk8wl16sbezj1wgqh2t].[sum:Eixo_Y:qk]</axis>
+                  </node-reference>
+                </y-coord>
+                <page-reference>
+                  <fields>
+                    <field>[federated.0mcwo341fdk8wl16sbezj1wgqh2t].[none:Ano:ok]</field>
+                  </fields>
+                  <multibucket>
+                    <bucket>2018</bucket>
+                  </multibucket>
+                </page-reference>
+              </visual-coordinate>
+            </top-left>
+            <bottom-right>
+              <visual-coordinate class='axis'>
+                <x-coord axis-value='-53.904282115869016'>
+                  <node-reference>
+                    <axis>[federated.0mcwo341fdk8wl16sbezj1wgqh2t].[sum:Eixo_X:qk]</axis>
+                  </node-reference>
+                </x-coord>
+                <y-coord axis-value='-85.743380855397149'>
+                  <node-reference>
+                    <axis>[federated.0mcwo341fdk8wl16sbezj1wgqh2t].[sum:Eixo_Y:qk]</axis>
+                  </node-reference>
+                </y-coord>
+                <page-reference>
+                  <fields>
+                    <field>[federated.0mcwo341fdk8wl16sbezj1wgqh2t].[none:Ano:ok]</field>
+                  </fields>
+                  <multibucket>
+                    <bucket>2018</bucket>
+                  </multibucket>
+                </page-reference>
+              </visual-coordinate>
+            </bottom-right>
+            <text x='0.5' y='0.5' />
+          </annotation>
+          <annotation class='area' id='4' text-pinx='0.5' text-piny='0.5' text-width-delta='-18'>
+            <formatted-text>
+              <run bold='true' fontsize='24'>&lt;</run>
+              <run bold='true' fontsize='24'>Page Name</run>
+              <run bold='true' fontsize='24'>&gt;</run>
+            </formatted-text>
+            <top-left>
+              <visual-coordinate class='axis'>
+                <x-coord axis-value='71.536523929471031'>
+                  <node-reference>
+                    <axis>[federated.0mcwo341fdk8wl16sbezj1wgqh2t].[sum:Eixo_X:qk]</axis>
+                  </node-reference>
+                </x-coord>
+                <y-coord axis-value='-0.61099796334012524'>
+                  <node-reference>
+                    <axis>[federated.0mcwo341fdk8wl16sbezj1wgqh2t].[sum:Eixo_Y:qk]</axis>
+                  </node-reference>
+                </y-coord>
+                <page-reference>
+                  <fields>
+                    <field>[federated.0mcwo341fdk8wl16sbezj1wgqh2t].[none:Ano:ok]</field>
+                  </fields>
+                  <multibucket>
+                    <bucket>2023</bucket>
+                  </multibucket>
+                </page-reference>
+              </visual-coordinate>
+            </top-left>
+            <bottom-right>
+              <visual-coordinate class='axis'>
+                <x-coord axis-value='96.473551637279598'>
+                  <node-reference>
+                    <axis>[federated.0mcwo341fdk8wl16sbezj1wgqh2t].[sum:Eixo_X:qk]</axis>
+                  </node-reference>
+                </x-coord>
+                <y-coord axis-value='-15.682281059063129'>
+                  <node-reference>
+                    <axis>[federated.0mcwo341fdk8wl16sbezj1wgqh2t].[sum:Eixo_Y:qk]</axis>
+                  </node-reference>
+                </y-coord>
+                <page-reference>
+                  <fields>
+                    <field>[federated.0mcwo341fdk8wl16sbezj1wgqh2t].[none:Ano:ok]</field>
+                  </fields>
+                  <multibucket>
+                    <bucket>2023</bucket>
+                  </multibucket>
+                </page-reference>
+              </visual-coordinate>
+            </bottom-right>
+            <text x='0.5' y='0.5' />
+          </annotation>
+          <annotation class='area' id='5' text-pinx='0.5' text-piny='0.5' text-width-delta='-18'>
+            <formatted-text>
+              <run bold='true' fontcolor='#666666' fontname='Segoe UI' fontsize='8'>VISIONARIES</run>
+            </formatted-text>
+            <top-left>
+              <visual-coordinate class='axis'>
+                <x-coord axis-value='61.460957178841312'>
+                  <node-reference>
+                    <axis>[federated.0mcwo341fdk8wl16sbezj1wgqh2t].[sum:Eixo_X:qk]</axis>
+                  </node-reference>
+                </x-coord>
+                <y-coord axis-value='-75.967413441955188'>
+                  <node-reference>
+                    <axis>[federated.0mcwo341fdk8wl16sbezj1wgqh2t].[sum:Eixo_Y:qk]</axis>
+                  </node-reference>
+                </y-coord>
+                <page-reference>
+                  <fields>
+                    <field>[federated.0mcwo341fdk8wl16sbezj1wgqh2t].[none:Ano:ok]</field>
+                  </fields>
+                  <multibucket>
+                    <bucket>2018</bucket>
+                  </multibucket>
+                </page-reference>
+              </visual-coordinate>
+            </top-left>
+            <bottom-right>
+              <visual-coordinate class='axis'>
+                <x-coord axis-value='84.634760705289693'>
+                  <node-reference>
+                    <axis>[federated.0mcwo341fdk8wl16sbezj1wgqh2t].[sum:Eixo_X:qk]</axis>
+                  </node-reference>
+                </x-coord>
+                <y-coord axis-value='-85.743380855397149'>
+                  <node-reference>
+                    <axis>[federated.0mcwo341fdk8wl16sbezj1wgqh2t].[sum:Eixo_Y:qk]</axis>
+                  </node-reference>
+                </y-coord>
+                <page-reference>
+                  <fields>
+                    <field>[federated.0mcwo341fdk8wl16sbezj1wgqh2t].[none:Ano:ok]</field>
+                  </fields>
+                  <multibucket>
+                    <bucket>2018</bucket>
+                  </multibucket>
+                </page-reference>
+              </visual-coordinate>
+            </bottom-right>
+            <text x='0.5' y='0.5' />
+          </annotation>
+        </annotations>
+        <page-trail-options enabled='true' line-color='#00000000' line-color-auto='false' line-pattern='line-pattern-dotted' line-stroke-width='5' lines='true' mark-color='#f28e2b' mark-color-auto='false' mark-type='highlighted' marks='false' trail-effect='none' />
+        <trail-overrides>
+          <trail-override id='1' state='on'>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.0mcwo341fdk8wl16sbezj1wgqh2t].[sum:Eixo_X:qk]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.0mcwo341fdk8wl16sbezj1wgqh2t].[sum:Eixo_Y:qk]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.0mcwo341fdk8wl16sbezj1wgqh2t].[none:Ano:ok]</field>
+                  <field>[federated.0mcwo341fdk8wl16sbezj1wgqh2t].[none:Calculation_866661459930431488:nk]</field>
+                  <field>[federated.0mcwo341fdk8wl16sbezj1wgqh2t].[none:Empresa:nk]</field>
+                  <field>[federated.0mcwo341fdk8wl16sbezj1wgqh2t].[sum:Eixo_X:qk]</field>
+                  <field>[federated.0mcwo341fdk8wl16sbezj1wgqh2t].[sum:Eixo_Y:qk]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>2023</value>
+                <value>&quot;Tableau&quot;</value>
+                <value>&quot;Tableau&quot;</value>
+                <value>25.714140855067701</value>
+                <value>22.580835970475299</value>
+              </tuple>
+            </tuple-reference>
+          </trail-override>
+          <trail-override id='2' state='on'>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.0mcwo341fdk8wl16sbezj1wgqh2t].[sum:Eixo_X:qk]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.0mcwo341fdk8wl16sbezj1wgqh2t].[sum:Eixo_Y:qk]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.0mcwo341fdk8wl16sbezj1wgqh2t].[none:Ano:ok]</field>
+                  <field>[federated.0mcwo341fdk8wl16sbezj1wgqh2t].[none:Calculation_866661459930431488:nk]</field>
+                  <field>[federated.0mcwo341fdk8wl16sbezj1wgqh2t].[none:Empresa:nk]</field>
+                  <field>[federated.0mcwo341fdk8wl16sbezj1wgqh2t].[sum:Eixo_X:qk]</field>
+                  <field>[federated.0mcwo341fdk8wl16sbezj1wgqh2t].[sum:Eixo_Y:qk]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>2023</value>
+                <value>&quot;Qlik&quot;</value>
+                <value>&quot;Qlik&quot;</value>
+                <value>15.4083732249464</value>
+                <value>3.6720001014014798</value>
+              </tuple>
+            </tuple-reference>
+          </trail-override>
+          <trail-override id='3' state='on'>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.0mcwo341fdk8wl16sbezj1wgqh2t].[sum:Eixo_X:qk]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.0mcwo341fdk8wl16sbezj1wgqh2t].[sum:Eixo_Y:qk]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.0mcwo341fdk8wl16sbezj1wgqh2t].[none:Ano:ok]</field>
+                  <field>[federated.0mcwo341fdk8wl16sbezj1wgqh2t].[none:Calculation_866661459930431488:nk]</field>
+                  <field>[federated.0mcwo341fdk8wl16sbezj1wgqh2t].[none:Empresa:nk]</field>
+                  <field>[federated.0mcwo341fdk8wl16sbezj1wgqh2t].[sum:Eixo_X:qk]</field>
+                  <field>[federated.0mcwo341fdk8wl16sbezj1wgqh2t].[sum:Eixo_Y:qk]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>2023</value>
+                <value>&quot;Microsoft&quot;</value>
+                <value>&quot;Microsoft&quot;</value>
+                <value>50.4113096420106</value>
+                <value>50.102035211654403</value>
+              </tuple>
+            </tuple-reference>
+          </trail-override>
+        </trail-overrides>
+      </table>
+      <simple-id uuid='{28B93352-8E5A-4E75-9332-DBBD9EBACD29}' />
+    </worksheet>
+  </worksheets>
+  <dashboards>
+    <dashboard _.fcp.AccessibleZoneTabOrder.true...enable-sort-zone-taborder='true' name='Painel Magic'>
+      <style />
+      <size maxheight='650' maxwidth='1000' minheight='650' minwidth='1000' sizing-mode='fixed' />
+      <zones>
+        <zone h='100000' id='4' type-v2='layout-basic' w='100000' x='0' y='0'>
+          <zone h='80000' id='7' param='horz' type-v2='layout-flow' w='98400' x='800' y='18769'>
+            <zone h='80000' id='5' type-v2='layout-basic' w='98400' x='800' y='18769'>
+              <zone h='80000' id='3' name='Magic Quadrant' w='98400' x='800' y='18769'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='0' />
+                </zone-style>
+              </zone>
+            </zone>
+          </zone>
+          <zone h='17538' id='8' looped='1' name='Magic Quadrant' synchronized='1' type-v2='currpage' w='98400' x='800' y='1231'>
+            <zone-style>
+              <format attr='border-color' value='#000000' />
+              <format attr='border-style' value='none' />
+              <format attr='border-width' value='0' />
+              <format attr='margin' value='4' />
+            </zone-style>
+          </zone>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='margin' value='8' />
+          </zone-style>
+        </zone>
+      </zones>
+      <devicelayouts>
+        <devicelayout auto-generated='true' name='Phone'>
+          <size maxheight='700' minheight='700' sizing-mode='vscroll' />
+          <zones>
+            <zone h='100000' id='68' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='97538' id='67' param='vert' type-v2='layout-flow' w='98400' x='800' y='1231'>
+                <zone fixed-size='280' h='80000' id='3' is-fixed='true' name='Magic Quadrant' w='98400' x='800' y='18769'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='17538' id='8' looped='1' name='Magic Quadrant' synchronized='1' type-v2='currpage' w='98400' x='800' y='1231'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+              </zone>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='8' />
+              </zone-style>
+            </zone>
+          </zones>
+        </devicelayout>
+      </devicelayouts>
+      <simple-id uuid='{0857473F-3BFA-4611-B8B0-1A67FFD78471}' />
+    </dashboard>
+  </dashboards>
+  <windows source-height='30'>
+    <window class='worksheet' name='Magic Quadrant'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='170'>
+            <card type='currpage' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <current-page>
+          <multibucket>
+            <bucket>2023</bucket>
+          </multibucket>
+        </current-page>
+        <zoom type='entire-view' />
+        <highlight>
+          <color-one-way>
+            <field>[federated.0mcwo341fdk8wl16sbezj1wgqh2t].[none:Ano:qk]</field>
+            <field>[federated.0mcwo341fdk8wl16sbezj1wgqh2t].[none:Calculation_866661459930431488:nk]</field>
+            <field>[federated.0mcwo341fdk8wl16sbezj1wgqh2t].[none:Empresa:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{387AA692-0C37-4173-99BD-FD12E1BBC133}' />
+    </window>
+    <window class='dashboard' maximized='true' name='Painel Magic'>
+      <viewpoints>
+        <viewpoint name='Magic Quadrant'>
+          <current-page>
+            <multibucket>
+              <bucket>2013</bucket>
+            </multibucket>
+          </current-page>
+          <zoom type='entire-view' />
+        </viewpoint>
+      </viewpoints>
+      <active id='-1' />
+      <device-preview visible='true' />
+      <simple-id uuid='{57574764-9713-4BAA-9FF8-65984D21A509}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='192' name='Magic Quadrant' width='192'>
+      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
+      TkSuQmCC
+    </thumbnail>
+    <thumbnail height='192' name='Painel Magic' width='192'>
+      iVBORw0KGgoAAAANSUhEUgAAAMAAAADACAYAAABS3GwHAAAACXBIWXMAAA7DAAAOwwHHb6hk
+      AAAVJ0lEQVR4nO3d23Mc55nf8W+f5nwEZoABiBMB8ExQoiRKlmxLu+uK461SOYebJBdJpVK5
+      y0X+gVRtlWuv9m5vNpVU5WZ3b3bL5bIr3koUx45km5Zs2ZHEgwiQBEicZwbAAHPsmZ4+7AVI
+      mDRB8QSgAfbzuSGA6Z55QPRv3re733lfxfM8DyECSvW7ACH8JAEQgSYBEIH2SAC+/7d/Tb3r
+      +lGLEAdOf/CbztYCH3/0AWbPJHc//l+oiQxhTELpfq789If88//8F7z/jXN+1SrEnnsoALM3
+      Znj7X/xHtoo3OPvqJWyridmsEM728ebb79C1Wn7VKcS+UOQyqAiyh1qAjdU5/s9PPqQwPMFK
+      pckfvz7K53e3SHQ28DJjvPfWBb/qFGJfPHQS3FMYYaTQx52ldWLaJl40SW2twrmpcywsLflV
+      oxD75qEArM5e586GyetnRnD0AfI9WcZGCly/OsPY6IhfNQqxb+QcQATaQ+cAruvywQcf4DgO
+      AI7j8P7771MpzuMmBqkX5xidPIuhbW9vmXVajkEmEXnoSYtLS/QODrFRLFIYLNBuVLCUMMtL
+      Zc6cOs5qsUihUEA5mN9RiMd6KAC2baNpGt/5znf46KOPaDabdDodvvjsd6y5N/jyV/+Xd//4
+      O9StLo3iPLoCc2aYb16aYu7KZ4TSaV5780+4/pMfspEY4Hxfkn/40d+heiZe73mUrsX0tY9x
+      Ij2EzArpfIH5uXne++6/YrQ35tf/gQiwR+4Ee57H9773PX784x8TCoXubRWjsTpDbugEKytr
+      rJVKtFqbNNvQ2KoS15r87tptrs4uMzyYIxTLEI84FFdKtLfKmK7OZqnE1to6S/UWSrfK+noT
+      s1qh2aiyXJH7C8IfD50DWJbFz372M/L5PJOTk3z66ae88847GIaB6zooioqCS9dR8BwLIxSm
+      27WJREK0Wia6bhCJhOl2uzsvYHU6hMJhXNfFdlwMQ0NBwbEtNCNCp20STyRQFekQiYP3UBdI
+      13Vc16VcLlMul+l0OoRCIXRdB4yd7ba/CgPstBLJZHLn8Z2W4w++fsi9n4eM5O6PC3EA5CqQ
+      CDQZDi0CTQIgAk0CIAJNAiACTQIgAk0CIAJNAiACTQIgAk0CIAJNAiACTQIgAk0CIAJNAiAC
+      TQIgAk0CIAJNAiACTQIgAk0CIAJt5zPBP/rRj7h69ZqftQhx4HYC4DgOtm37WYsQB066QE+k
+      MDp5iqmpKfp7Eo88+uBsGI99hmiGCydHAcgPjVPIxHfdbmTkD+ZfVVROnjnH1IUL5B+zDwBq
+      mKlzJ7+iApVk8t7+SohLb10ipO2ymRbi4sXXmDozueuzDI2MPMMBE2JkpP+BEjSS8QcmPzOy
+      TJ2dYOrcqUd/7z1gRLOcnhy6953C+anzu85EqO/yM/GATGEEw1xntmjhdCyOT54iGfKod3V0
+      x2Ly1ASfX7/NYDaCZbVZb7rkMgmK5U0mBjN8dvVL7HCc06dOMDO7wMjoOLX5BvH+YaJKl/WW
+      Ry4VA6tJ29UYHJ2kN6kzc+MmqcEJ3NoqV1e2ePPN10kUyyyWKhzrjaLFc8Q0i7W6Qz6TIh1z
+      ufDaJUpLd8n05PGsOuF0P6risbZa5pULE/z0Jx+ip/PkUgaDoydJxCNslJYZHBlnduYaWx2V
+      iO5hxVP09g/Sra7RNzSCq4YJuU0sDEZOnCZu6LQb63iRLImwymatRToRpVpvkMmkuHXtGm3X
+      IJ/vIZsbRlMVVleKXDg9wpWbS+SyKYqlLUKGDopOKBRi6PgJ0tEobncTS4mTiOpsbLboScfo
+      mjWaXpR0xGN9q0OuN83q3Vus10yOjY6Tz8QobrUoJKJ0Og1MJUoqnkLtlACIZfuJxpOM5BPo
+      ueNEdY1aeQEtmZMW4ElUTcd2HOKpPOenTpGMhSgUCiRiEeYX7lAuFekQprIyix7LMD46hmXZ
+      hGIJmltlOvfWW1tYXGXy7BS1tSW0SJR4WKdQGKC/N8WN6VtE4knS6RR92QRXr01jOS6KquLY
+      2/t7nkc6nUYzQqSzOVJRjf7CAEO5NNemb9LpuhiKS63jEdZhoDBASPOYXlijJ6pSLhaxXGjV
+      65RL62RTEa5d/ZLC6BjYJlt1EwAjFMZVQ2QzCSK6RiaToWvbhAyDVDpNKhlnduYWmZ4hRkf7
+      6TouruNghAy6XRvDMPj9W62CodjMrlZJhmxKpTIjI6N0rC668ft5ptLpDPlMjOvTd0n19jI8
+      2I9lQyoVY+XuLWKZAXoSBlev32RkbJR2x9p+HTTSqTiZfIFsOs7K3CyxdI5swmDm9l3ur3Q3
+      Pj6ObbYYP3mKWCTErRsz9I+NkYiFpQV4ksrKPP3nzpJUFUrFEj35PjYqG2xtNnFdl2rLJuS2
+      aLQdvEqF8nqVTFyjvrmJqrcB8KwWqysNtFSO5dUKuVSIXDzNRmWD0maH06dOoCsupUoF01E5
+      f/YkN2dusbY4S/7cWV4djhFVTFZrLSZHB6jXa6SzWSqVCqsbLc6eGKNRr9N2mnieh6IobFQq
+      NDs2TrtJFYdkIklIBcvrUtmq0VFczp8/zcKtW6RSqe1f1rFpdmzcTouV5TVOjE/SbTdQANtx
+      aFYquJ6H4zlUNktU2200x8JxHbrdLqqqYltdtieasqlUqoCG1bKoKg1CiSylxUV6UxGa9U0q
+      WgQUDdQWFjpnTo5D12S52kV3TNZrFu2uQ2WjjK3onDszycL8Ir3pKKvN+9NpKtQ2N6hubdG2
+      HSqVdTwtyvhIH7VqEVBoba4yN3eH0fEJVNfFcW02NqrE4/HfT4z1gx/8gCtXrh7s0SXoGxyh
+      P9/L5socS2tVv8vxzcDwGH35HKW5LyluHdxcsTsBuHz5Mnfu3DmwFxbiMNgJQKvVIhaTKcrF
+      83McB03b7fLS4bVzElyr1fysQ7wEHpwV/KiQq0Ai0CQAItAkACLQJAAi0CQAItAkACLQDnwo
+      hG3bvl8uU1UVwzBQVcl/0B1oAEzT3LlZovi4KqTrujSbTWKx2JG7cSP21oEFwPM8ut0u0Wh0
+      l8dclu7OgWagxzIo3Sa9PWnmVzbpTxsQy9HcLJHr62H66gzp3ix6NAWWSSKqs1Cs0JuKUml0
+      iahdulqMfEKj0oKJsWO7jgPXNA3TNEkkHh3jL4LjwALgOM5juxzVlVvMb6m8cazL3394mZDb
+      4pWJAT6eKfPmZIbw2NssXL3C2998nWtf3uH02Bq/vdugP2WgoPHaxXPcuvIF4eOnufvlDK4R
+      ZpE2hROvPbYeRVGQBTLFgXaCH3fAhaIJauVFlssV+o+Nks8mmL6zxHDKY26lwvzcbZqNOncX
+      V1AUBdu2eeX8SZZLW4R1l1//8jKVpgWOg6cqOJ0W/UNjTF+/xlcd4xIAsTMYrlgsUigU9u2F
+      HMeh1WoRiUQeeWy7BA927axsP67c2wJ45Pzh/hj4+/8++LOvOtdot9tP9ZFG8XTa7fauf9/D
+      7MC6QPe7Pw8epPdtf//4A/X+9o/bYufxB573SSfZtn3v00si0A4sAIqiEIvFaLVauK775B32
+      uRbDMAiHw77WIfx3oJdBNU2TLoc4VOROkAg0CYAINAmACDQJgAg0CYAINAmACDQJgAg0CYAI
+      NAmACDQJgAg0CYAINAmACDQJgAg0CYAIBNe8Rbv8v+m2Vh/6uawQIwLBtRZx2mXwruE0PkdR
+      w4ArLYDYe57n8Q8f3+TP//rnzCxu+F3ODj39LkYyj+e4OO0S3Y1fSgsg9t5Wo83ffHAF07Jx
+      XI8/+/fvPdP+nufhei6qou7Z/FFa8uto6CjKCGFjDEVL4LltaQHE3otHQ5wc7iVsaFyY6H/y
+      Dn/gV3d+zn/6/n/gv17+S2x3bxZvV9QwiqqBoqIaGRRVR9UT0gKIvRfSNf7Lv3uXWqtDb+rR
+      idCe5JdzH1FrV/nN/Mf864v/lp547z5UuU0CIF7I1lad64ubFPqyHEsbrFfbxBMR2o0GaiTx
+      XF2Yf3L6T1lrlnll8CKZaPaZ9nVdF8/zUNWn6z5JAMQLyWSS3PjFDG+cHuB31xZYt0Pouke8
+      U0fPD0CzwXB/msW1OvGoQU9EI5bNkIs9/tB7begSrw1deuZaLKvD///VL7E6bS5c+hqZnie3
+      HBIAsSdqlSrX51ZZdjO8Nx7hykqDyMY8oUiE0kadhY0anhribF+I4VBylwB43Fj+DRWry2g6
+      x0arRds2yaRPciqbf6oaGtUq9eoWAOvFVQmAOBjffnOSdDbKxTMjvJtJY5od/s14P6oRYnF1
+      k75MlPFah0I6QqlqMpx69LBzrHWuVNb5k0KO/3nrF/QnR9DcKl+U5zBOv8946sldoXRPL4Vj
+      w7TbJoMjY09VuwRAvLCR/gwA58f7HpkasefE9nSbA/fexAu51K7PoWpxDLfJldIWvbE0lrVJ
+      0zYpVot0n3IiNU3TmHrjzWeqXQIgDgVFi/Hd8/+MSmOFlhdlMJF9YC7Y/btaLwEQh4auhelL
+      Hz/Q15QbYSLQpAUQR5bnedQ2KwCksj3Pdc9BAiCOrMpamc8+uQzAxa99nd6+Zx92IV0gcei0
+      zRa3b1xno1z6ylV87G4Xz/N21p97HtICiD3VqNe4c3Oa/sEh8oWB5+qWzFy7QnllmUXD4Ovf
+      +jah8O6rzuQHBjn76vY6cH0Dg89VrwRA7KnS0iLFpUUqa2VyfX+K8hzL0EYi2wPoQqEwqvr4
+      /VVV5djoi101kgCIPRWNx1EUhWQ6i/KcC5GfOHeevoFBYokk+j4vYyUBEHtqYGiEVLaHaCz+
+      3B9mUVWNbO7pxv+8KAmA2FOKqpJI7j7c4TCSq0Ai0CQAItAkACLQJAAi0CQAh4BldWjUql95
+      11PsD7kK5LOuZfHJ//spnbbJyfMXGJ044XdJgSItgM8sq4PVaQPQatR9riZ4pAXwWSye4Mwr
+      F6nXqoxNnnyqfSyrQ6vRIJXJoj7n3VaxTQLgM0VRnmk8i213+fQXH9JqNBiZOMGp8xf2sbqX
+      n7x9HDGu42J1OgC0W02fqzn6pAU4YoxQiKnXL1FZX2d4bNzvco48CcARoygKuf4Bcv0Dfpfy
+      UpAukAg0CYAINAmACDQJgAg0CYAINAmACDQJgAg0CYAItIduhMl4dPGijtoxtBMA13WxLMvP
+      WsQR1+1292xd34OyEwBVVQmHw37WIo44z/OO3DEkY4G+wvL8HeZmphkcGWX81Jkj9+4mnkxO
+      gr/Cwtxt2maLhbnbuE+5TpU4WgIdgPtTaz/O0Ng4oXCYodHj8smrl1Rgu0Bmq8Xnv/4VeB6v
+      vPU2sXjikW2Gj08wfHzCh+rEQQns29rmeplGrUqjXmOjXPa7HOGTwLYAvX39ZHpzeJ5HvlDw
+      uxzhE8W71wkuFosU5EAQL6Ddbj+yUPZhF9gukBAgAXhp2LbNWnGFdqvldylHSmDPAV42M1c/
+      Z2Vhnlg8wVt/9C10Xf60T0NagBfQaZtUKxU8z/+bZF1re5lQ2+4einqOCnmbeE5Wp8MnH/4U
+      q9Nh8ux5jp845Ws9py+8SjrbQzaXwzBCvtZylEgAnpNtd3cWZz4M/e5INMrxk08fwnp1i/VS
+      icKxIaLx+D5WdrhJAJ5TNBZn6rVL1GvVI3e32HVdvvjNJ5itJuulVS5984/8Lsk3EoDnpCgK
+      /ceG6D825Hcpz0yBnfV39YB3lyQAe8DzPJr1GppuEIlGD/2waUVVufi1d6huVsj2Hsx6vIeV
+      BGAPlFeXufLpr9E0jbfe+xbxZNLvkp4oHInSN3DM7zJ8J5dB94B57yTYcRw691Z7EUeDtAB7
+      YGjsOHa3SygcIdPT63c54hlIAPaArhtMnjnndxn7yvM8SstLlFaWGBmfJJt7Oc4dpAsknorr
+      ukxf/Zzy6go3r1/1u5w9IwHYRds0mb7yOYtzs0dunpv9oqoKmZ5eFFUl05vzu5w9I12gXczf
+      vsninVkAsrk8iVTK54r8pygqF954i3bbJBp7ee4cSwB2EU+mUBQFIxQmdMTmudlPqqbt+tnp
+      o0wCsItjo2Nke3slAAEgAdiFoijEk7t3e8xWkxtffEY4EuH0hYtomnbA1Ym9JCfBz2hl4S4b
+      5RIrC/Nsbaz7XY54QRKAZ9ST7ycUDhNPpkik036XI16QzArxjDzPw7FtFFVB06QH+aCjOCuE
+      /AWfkaIoO0OJxdEnXSARaBIAEWgSABFoEgARaBIAEWiBC4DnecxOf8lnn1ymXqv6XY7wWeAC
+      0Go0uHNzmvVSkfnbt/b1taxOh9s3rrO6tCDDqg+pwN0HCEejJNMZmo06Pfn9/VTTnVszLMze
+      AhRS6eyR+LB80AQuALqu88Y33sXu2vs+0jMajW2/pqHLzbNDKnABANA0/bHDGNqtFo16jWwu
+      /8IjPYfHJ0j39BCORAgfsSECQRHIADyO3e3y28s/x2w1GT4+wekLr77Q8ymKQjrbs0fVif0Q
+      uJPgr+K6LnbXAsCyOj5XIw6CtAAPCIXDvPLm22xWNjg2Mup3OeIASAD+QDaXf2nmvBFPJl0g
+      EWgSABFoEgARaBIAEWgSABFoEgARaBIAEWgSABFoh+JGmOd5h2K8vKIoh36BO7G3fA9Au93G
+      siwURfE1BPdfPxKJEAoFe+nQIPE1ALZtY9s20Wj0kcdc1/19KBQFdsKhANtfe4CqKDvbgoKq
+      gut62/sC3Gtd7j+Xqqq4rouqauz2Zm+aJrquo6rSOwwCXwPQ7XbR9d1L+MHf/HeGz7xKs7JB
+      J5RG8xxGCzFuLndx2xvo3RYDZ9/glRP9fP/vfkiyJ40aLvDtb5zmv/3V/+Cf/svv8vlvfksy
+      k2V5ZYuzo0lWag46Ll4kzbfee5fYLm/0mqZh27a0AgFxaN/m4n3DVBam6Xpg1itEsgMM9vfg
+      Og6O66GFogwN3B+0pnP+7EkAVman6T02wNxyCw2PV6cm6O0/RjxiUK+bjJw6h1IvsmVau76u
+      310xcbB8nRzXNE2AXVuB1dVV0vEQW40OWjhOe6uEEo4SDifxbBO708T0IkyMFiiXNynkU1y7
+      PoMWjnF8fJT1UhlDV+nJprgxPUu2J0MilWGjtErHUTl1ahJdfbQPZFkWhmFIC/AcjuLkuL4G
+      wHEcTNMkfIhWYTFNk2QyKVeDnsNRDICv5wCapmEYBqZpHopuh6IoRKNROfgDxPfLoOFw+FB1
+      N+TgDxbfAwBy0An/HNqrQEIcBAmACDQJgAg0CYAINAmACDQJgAg0CYAINAmACLSdsUBHcRyH
+      OFzuf+7iKNkJgBBBJF0gEWj/CIoVoZZGO3LiAAAAAElFTkSuQmCC
+    </thumbnail>
+  </thumbnails>
+</workbook>
